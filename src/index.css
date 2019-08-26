@@ -1,5 +1,6 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 25px / 1 sans-serif;
+  color: white;
 }
 
 html {
@@ -9,4 +10,15 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: lightcoral;
+  color: white;
+}
+
+.main {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
 }
