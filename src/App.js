@@ -12,12 +12,24 @@ class App extends Component {
         <main class="main">
           <h1>Music Madness</h1>
           <Link to="/">HomePage</Link>
-          <switch>
-            <Route exact path="/" exact component={HomePage}></Route>
-            <Route exact path="/LilUziVert" component={LilUziVert}></Route>
-            <Route exact path="/LilBaby" component={LilBaby}></Route>
-            <Route exact path="/PoloG" component={PoloG}></Route>
-          </switch>
+          <container>
+            <div class="Lil-Uzi-Vert">
+              <div class="Lil-Baby">
+                <div class="Polo-G">
+                  <switch>
+                    <Route exact path="/" exact component={HomePage}></Route>
+                    <Route
+                      exact
+                      path="/LilUziVert"
+                      component={LilUziVert}
+                    ></Route>
+                    <Route exact path="/LilBaby" component={LilBaby}></Route>
+                    <Route exact path="/PoloG" component={PoloG}></Route>
+                  </switch>
+                </div>
+              </div>
+            </div>
+          </container>
         </main>
       </Router>
     )
